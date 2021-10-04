@@ -14,8 +14,8 @@ namespace NFMercadoTitio
         public string caminhoPastaNota = @"C:\NotasFiscais\Notas";
         public string caminhoPastaNotaRetorno = @"C:\NotasFiscais\Retornos";
 
-        public string conexaoString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source = C:\Banco_Dados\Soft.mdb;Jet OLEDB:Database Password = 'Soft';";
-        //public string conexaoString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source =  \\MAINSERVIDOR-PC\Arquivos Sistema Valendo\Banco_Dados\Soft.mdb;Jet OLEDB:Database Password = 'Soft';";
+        //public string conexaoString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source = C:\Banco_Dados\Soft.mdb;Jet OLEDB:Database Password = 'Soft';";
+        public string conexaoString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source =  \\MAINSERVIDOR-PC\Arquivos Sistema Valendo\Banco_Dados\Soft.mdb;Jet OLEDB:Database Password = 'Soft';";
 
         public string codigoBarraProduto = string.Empty;
     }

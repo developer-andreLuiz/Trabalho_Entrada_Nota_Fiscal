@@ -44,14 +44,14 @@ namespace NFMercadoTitio.Formulario
             {
                 lblxProd.Text = lstFaltando[0].xProd;
             }
-            if (tamanhoCprod >= 7)
-            {
-                lblcProd.Text = lstFaltando[0].cProd.Substring(0, 7);
-            }
-            else
-            {
-                lblcProd.Text = lstFaltando[0].cProd;
-            }
+            //if (tamanhoCprod >= 7)
+            //{
+            //    lblcProd.Text = lstFaltando[0].cProd.Substring(0, 7);
+            //}
+            //else
+            //{
+            lblcProd.Text = lstFaltando[0].cProd;
+            //}
         }
         private Form activeForm = null;
         private void openChildForm(Form ChildForm)
